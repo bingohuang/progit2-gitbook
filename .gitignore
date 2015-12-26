@@ -1,0 +1,8 @@
+# Created by .gitignore support plugin (hsz.mobi)
+*.~
+*.tmp
+.idea/
+_book/
+*.swp
+*.edx
+.DS_Store
