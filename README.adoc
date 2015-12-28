@@ -1,8 +1,14 @@
 = Pro Git，第二版，简体中文
 
-注：我准备将Pro Git第二版简体中文版，迁移到GitBook上来，方便大家一起学习阅读，感谢原著作者及翻译。
+*_注：作为Git官方推荐书籍，《Pro Git》值得Git初学者好好阅读一遍。_*
 
-== 完成进度：
+*_当前GitBook网站上只有《Pro Git》第一版，故我准备将《Pro Git》第二版简体中文版，迁移至此，方便大家统一阅读学习。_*
+
+*_《Pro Git》第二版原书格式是AsciiDoc，和常用的Markdown格式略有不同，GitBook 2.0.0之后已支持_。AsciiDoc参考帮助见： https://help.gitbook.com/format/asciidoc.html*
+
+*_感谢原著作者及翻译作者，官网在线地址见： http://git-scm.com/book/zh/v2_*
+
+== 当前完成进度（持续更新）：
 
 . 前言
 . 第一章：起步
@@ -11,7 +17,9 @@
 . 第四章：服务器上的 Git
 . 第五章：分布式 Git
 . 第六章：GitHub
-. To Be Continue
+. 第七章：Git 工具
+. To Be Continue...
+
 
 == 前言
 欢迎阅读 Pro Git 第二版。
