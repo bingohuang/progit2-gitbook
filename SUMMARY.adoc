@@ -1,8 +1,6 @@
 = Summary
 
 . link:README.adoc[前言]
-. link:perface.adoc[序言]
-. link:introduction.adoc[引言]
 . link:01-introduction/1-introduction.adoc[起步]
 .. link:01-introduction/sections/about-version-control.adoc[关于版本控制]
 .. link:01-introduction/sections/history.adoc[Git 简史]
@@ -101,3 +99,6 @@
 .. link:B-embedding-git/sections/libgit2.adoc[Libgit2]
 .. link:B-embedding-git/sections/jgit.adoc[JGit]
 . link:C-git-commands/1-git-commands.adoc[附录C:将 Git 嵌入你的应用]
+. link:preface.adoc[序言]
+. link:introduction.adoc[引言]
+. link:contributors.adoc[贡献者]
