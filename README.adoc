@@ -13,7 +13,7 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 
 * https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] ：欢迎做 `fork - 修改 - pull request`
 
-* _感谢原著作者及翻译者，官网在线地址见： http://git-scm.com/book/zh/v2_
+* _感谢原著作者及翻译者:_ http://git-scm.com/book/zh/v2[_书籍官网地址_]  
 
 == 当前完成进度（持续更新）：
 
