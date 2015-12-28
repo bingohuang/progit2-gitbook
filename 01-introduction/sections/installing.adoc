@@ -39,7 +39,7 @@ Mavericks （10.9） 或更高版本的系统中，在 Terminal 里尝试首次�
 官方维护的 OSX Git 安装程序可以在 Git 官方网站下载，网址为 http://git-scm.com/download/mac[]。
 
 .Git OS X 安装程序.
-image::images/git-osx-installer.png[Git OS X 安装程序。]
+image::../images/git-osx-installer.png[Git OS X 安装程序。]
 
 你也可以将它作为 GitHub for Mac 的一部分来安装。
 它们的图形化 Git 工具有一个安装命令行工具的选项。
