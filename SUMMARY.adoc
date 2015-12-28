@@ -1,5 +1,5 @@
 = Summary
 
 . link:README.adoc[前言]
-. link:01-introduction/1-introduction.asc[1.起步]
-.. link:01-introduction/sections/about-version-control.asc[关于版本控制]
+. link:01-introduction/1-introduction.adoc[1.起步]
+.. link:01-introduction/sections/about-version-control.adoc[关于版本控制]
