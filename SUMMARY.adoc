@@ -1,6 +1,8 @@
 = Summary
 
 . link:README.adoc[前言]
+. link:perface.adoc[序言]
+. link:introduction.adoc[引言]
 . link:01-introduction/1-introduction.adoc[起步]
 .. link:01-introduction/sections/about-version-control.adoc[关于版本控制]
 .. link:01-introduction/sections/history.adoc[Git 简史]
