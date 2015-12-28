@@ -5,15 +5,15 @@
 * _作为Git官方推荐书籍，《Pro Git》值得Git初学者和爱好者认真阅读一遍。_
 
 * _本人很喜欢 https://www.gitbook.com/@bingohuang[GitBook] 的阅读书籍模式，喜爱开源共享。_
-_当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第二版（简体中文版）迁移至此，方便大家统一阅读学习。_
+_当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第二版（简体中文版）整理迁移至此，方便大家统一阅读学习。_
 
-* _《Pro Git》第二版原书格式是AsciiDoc，和常用的Markdown格式略有不同，还好GitBook 2.0.0之后已支持，方便我整理到 https://www.gitbook.com/@bingohuang[GitBook] 中， https://help.gitbook.com/format/asciidoc.html[AsciiDoc帮助文档点此] 。_
+* _《Pro Git》第二版原书格式是 `AsciiDoc`  ，和常用的 `Markdown` 格式略有不同，还好  `GitBook 2.0.0` 之后已支持，方便我整理到 https://www.gitbook.com/@bingohuang[GitBook] 中，其中 https://help.gitbook.com/format/asciidoc.html[AsciiDoc帮助文档点此] 。_
 
 * https://www.gitbook.com/book/bingohuang/progit2/details[_《Pro Git》第二版书籍@GitBook_]
 
 * https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] ：欢迎做 `fork - 修改 - pull request`
 
-* _感谢原著作者及翻译者:_ http://git-scm.com/book/zh/v2[_书籍官网地址_]  
+* _感谢原著作者及翻译者:_ http://git-scm.com/book/zh/v2[_书籍官网地址_]
 
 == 当前完成进度（持续更新）：
 
@@ -28,11 +28,14 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 . 第八章：自定义 Git
 . 第九章：Git 与其他系统
 . 第十章：Git 内部原理
+. 附录A：其它环境中的 Git
+. 附录B：将 Git 嵌入你的应用
+. 附录C：Git 命令
 . To Be Continue...
 
 *_TODO:当前还有一些链接问题未修复_*
 
-== 前言
+= 原书前言
 欢迎阅读 Pro Git 第二版。
 
 你可以在以下地址找到本书的在线版本： http://git-scm.com/book
@@ -42,38 +45,3 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 自第一版开源以来，许多事情都发生了变化。
 其一，我们将本书的文本由 Markdown 迁移至 Asciidoc。
 同时，我们还开始使用 O'Reilly 的 https://atlas.oreilly.com[Atlas平台] 持续构建生成本书，因此，所有主要格式在每种语言都是可用的。
-
-我们还在独立的仓库中进行翻译，而不是在英文仓库的子目录中。
-查看 link:CONTRIBUTING.md[贡献文档] 了解更多信息。
-
-== 如何生成本书
-
-有两种办法可以通过这份源代码生成电子书。
-
-最简单的办法是让我们去做这个工作。
-我们有一个机器人时刻准备着，寻找主分支上的新工作，为每个人自动构建。
-
-你可以在 http://git-scm.com/book[] 找到当前构建，关于构建可用的详情请见 https://progit.org[]。
-
-另一个生成电子书文件的方法是使用 Asciidoctor 手动完成。
-如果你运行下面的命令，你 _可能_ 实际上获得 HTML、Epub、Mobi 和 PDF 输出文件：
-
-----
-$ bundle install
-$ asciidoctor-pdf-cjk-kai_gen_gothic-install
-$ bundle exec rake book:build
-Converting to HTML...
- -- HTML output at progit.html
-Converting to EPub...
- -- Epub output at progit.epub
-Converting to Mobi (kf8)...
- -- Mobi output at progit.mobi
-Converting to PDF...
- -- PDF  output at progit.pdf
-----
-
-这些命令使用了 `asciidoctor`、`asciidoctor-pdf` 和 `asciidoctor-epub` 项目。
-
-== 贡献
-
-如果你想要帮助修改或者贡献翻译，查看 link:CONTRIBUTING.md[贡献者指南]。
