@@ -38,3 +38,8 @@
 .. link:04-git-server/sections/gitlab.adoc[GitLab]
 .. link:04-git-server/sections/hosted.adoc[第三方托管的选择]
 .. link:04-git-server/sections/summary.adoc[总结]
+. link:05-distributed-git/1-distributed-git.adoc[分布式 Git]
+.. link:05-distributed-git/sections/distributed-workflows.adoc[分布式工作流程]
+.. link:05-distributed-git/sections/contributing.adoc[向一个项目贡献]
+.. link:05-distributed-git/sections/maintaining.adoc[维护项目]
+.. link:05-distributed-git/sections/summary.adoc[总结]

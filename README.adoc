@@ -9,6 +9,7 @@
 . 第二章：Git基础
 . 第三章：Git分支
 . 第四章：服务器上的 Git
+. 第五章：分布式 Git
 . To Be Continue
 
 == 前言
