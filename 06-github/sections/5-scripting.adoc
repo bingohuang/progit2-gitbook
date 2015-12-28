@@ -17,7 +17,7 @@ GitHub 仓库管理中的钩子与服务区块是 GitHub 与外部系统交互�
 
 [[_services_hooks]]
 .服务与钩子配置区域
-image::images/scripting-01-services.png[服务与钩子]
+image::../images/scripting-01-services.png[服务与钩子]
 
 有许多可以选择的服务，大多数是整合到其他的商业与开源系统中。
 它们中的大多数是为了整合持续集成服务、BUG 与问题追踪系统、聊天室系统与文档系统。
@@ -26,7 +26,7 @@ image::images/scripting-01-services.png[服务与钩子]
 
 [[_service_config]]
 .电子邮件服务配置
-image::images/scripting-02-email-service.png[电子邮件服务]
+image::../images/scripting-02-email-service.png[电子邮件服务]
 
 在本例中，如果我们点击 ``Add service'' 按钮，每次有人推送内容到仓库时，指定的电子邮件地址都会收到一封邮件。
 服务可以监听许多不同类型的事件，但是大多数只监听推送事件然后使用那些数据做一些事情。
@@ -47,7 +47,7 @@ GitHub 仓库钩子是非常简单的。
 
 [[_web_hook]]
 .Web 钩子配置
-image::images/scripting-03-webhook.png[Web 钩子配置]
+image::../images/scripting-03-webhook.png[Web 钩子配置]
 
 Web 钩子的设置非常简单。
 大多数情况下只需要输入一个 URL 与一个密钥然后点击 ``Add webhook''。
@@ -103,7 +103,7 @@ end
 
 [[_web_hook_debug]]
 .Web 钩子调试信息
-image::images/scripting-04-webhook-debug.png[Web 钩子调试信息]
+image::../images/scripting-04-webhook-debug.png[Web 钩子调试信息]
 
 开发者控制台的另一个很棒的功能是可以轻松地重新发送任何请求来测试你的服务。
 
@@ -175,7 +175,7 @@ hs_err_pid*
 
 [[_access_token]]
 .从设置页的 ``Applications'' 标签生成访问令牌。
-image::images/scripting-05-access-token.png[访问令牌]
+image::../images/scripting-05-access-token.png[访问令牌]
 
 它会询问这个令牌的作用域与一个描述。
 确保使用一个好的描述信息，这样当脚本或应用不再使用时你会很放心地移除。
@@ -218,7 +218,7 @@ $ curl -H "Content-Type: application/json" \
 
 [[_api_comment]]
 .从 GitHub API 发布的一条评论
-image::images/scripting-06-comment.png[API 评论]
+image::../images/scripting-06-comment.png[API 评论]
 
 可以使用 API 去做任何可以在网站上做的事情 -- 创建与设置里程碑、指派人员到 Issues 与 Pull Requests，创建与修改标签、访问提交数据、创建新的提交与分支、打开关闭或合并 Pull Requests、创建与编辑团队、在 Pull Request 中评论某行代码、搜索网站等等。
 
@@ -285,7 +285,7 @@ end
 
 [[_commit_status]]
 .通过 API 的提交状态
-image::images/scripting-07-status.png[提交状态]
+image::../images/scripting-07-status.png[提交状态]
 
 现在可以看到一个小的绿色对勾标记在提交信息中有 ``Signed-off-by'' 的提交旁边，红色的对勾标记在作者忘记签名的提交旁边。
 也可以看到 Pull Request 显示在那个分支上的最后提交的状态，如果失败的话会警告你。

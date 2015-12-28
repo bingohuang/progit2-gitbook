@@ -17,19 +17,3 @@ GitHub 是最大的 Git 版本库托管商，是成千上万的开发者和项�
 需要注意一点，同很多活跃的网站一样，书中截取的界面会随时间而改变。
 希望我们试图表达的核心思想一直是不变的，但是，如果你想要这些截图的更新版本，本书的在线版本或许有更新的截图。
 ====
-
-include::sections/1-setting-up-account.asc[]
-
-include::sections/2-contributing.asc[]
-
-include::sections/3-maintaining.asc[]
-
-include::sections/4-managing-organization.asc[]
-
-include::sections/5-scripting.asc[]
-
-=== 总结
-
-现在你已经是一名 GitHub 用户了。
-你知道了如何创建账户、管理组织、创建和推送版本库、向别人的项目提供贡献以及接受别人的贡献。
-在下一章中，你将学习更多强有力的工具，以及处理复杂情况的知识，这些将使你成为真正的 Git 大师。

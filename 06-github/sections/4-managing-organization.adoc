@@ -12,7 +12,7 @@
 我们可以很简单地创建一个组织，只需要点击任意 GitHub 页面右上角的“+”图标，在菜单中选择“New organization”即可。
 
 .``New organization''菜单项
-image::images/neworg.png[``New organization''菜单项]
+image::../images/neworg.png[``New organization''菜单项]
 
 首先你必须提供组织的名称和组织的主要联系邮箱。
 然后，如果你希望的话，也可以邀请其他用户作为共同拥有人。
@@ -41,7 +41,7 @@ image::images/neworg.png[``New organization''菜单项]
 
 [[_org_page]]
 .组织页面
-image::images/orgs-01-page.png[组织页面]
+image::../images/orgs-01-page.png[组织页面]
 
 你可以点击 <<_org_page>> 右边的团队侧边栏（Teams）来管理你的团队。
 点击之后，你会进入一个新页面，在这里你可以添加新成员和版本库到团队中，或者管理团队的访问权限和其它设置。
@@ -50,7 +50,7 @@ image::images/orgs-01-page.png[组织页面]
 
 [[_team_page]]
 .团队页面
-image::images/orgs-02-teams.png[团队页面]
+image::../images/orgs-02-teams.png[团队页面]
 
 当你邀请一个用户加入团队，该用户会收到一封通知他被邀请的邮件。
 
@@ -67,6 +67,6 @@ image::images/orgs-02-teams.png[团队页面]
 
 [[_audit_log]]
 .审计日志
-image::images/orgs-03-audit.png[]
+image::../images/orgs-03-audit.png[]
 
 你也可以通过选定某一类型的事件、某个地方、某个人对日志进行过滤。

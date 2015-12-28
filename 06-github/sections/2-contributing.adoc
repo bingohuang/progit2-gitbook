@@ -21,7 +21,7 @@
 你可以通过点击项目页面右上角的“Fork”按钮，来派生这个项目。
 
 .“Fork”按钮
-image::images/forkbutton.png[“Fork”按钮.]
+image::../images/forkbutton.png[“Fork”按钮.]
 
 稍等片刻，你将被转到新项目页面，该项目包含可写的代码副本。
 
@@ -52,7 +52,7 @@ GitHub 设计了一个以合并请求为中心的特殊合作流程。
 Tony 在找一些能在他的 Arduino 微控制器上运行的代码，他觉得 https://github.com/schacon/blink[] 中的代码不错。
 
 .他想要做出贡献的项目
-image::images/blink-01-start.png[他想要做出贡献的项目]
+image::../images/blink-01-start.png[他想要做出贡献的项目]
 
 但是有个问题，这个代码中的的闪烁频率太高，我们觉得 3 秒一次比 1 秒一次更好一些。
 所以让我们来改进这个程序，并将修改后的代码提交给这个项目。
@@ -114,7 +114,7 @@ To https://github.com/tonychacon/blink
 你也可以到“Branches”（分支）页面查看分支并创建合并请求： `https://github.com/<用户名>/<项目名>/branches`
 
 .合并请求按钮
-image::images/blink-02-pr.png[合并请求按钮]
+image::../images/blink-02-pr.png[合并请求按钮]
 
 (((GitHub, pull requests)))
 如果你点击了那个绿色按钮，就会看到一个新页面，在这里我们可以对改动填写标题和描述，让项目的拥有者考虑一下我们的改动。通常花点时间来编写个清晰有用的描述是个不错的主意，这能让作者明白为什么这个改动可以给他的项目带来好处，并且让他接受合并请求。
@@ -122,7 +122,7 @@ image::images/blink-02-pr.png[合并请求按钮]
 同时我们也能看到比主分支中所“领先”（ahead）的提交（在这个例子中只有一个）以及所有将会被合并的改动与之前代码的对比。
 
 .合并请求创建页面
-image::images/blink-03-pull-request-open.png[合并请求创建页面]
+image::../images/blink-03-pull-request-open.png[合并请求创建页面]
 
 当你单击了“Create pull request”（创建合并请求）的按钮后，这个项目的拥有者将会收到一条包含关改动和合并请求页面的链接的提醒。
 
@@ -138,19 +138,19 @@ image::images/blink-03-pull-request-open.png[合并请求创建页面]
 接下来可能会通过电子邮件进行互动，就像我们在 <<_distributed_git>> 中提到的工作流程那样，但是在 GitHub，这些都在线上完成。项目的拥有者可以审查修改，只需要单击某一行，就可以对其发表评论。
 
 .对合并请求内的特定一行发表评论
-image::images/blink-04-pr-comment.png[合并请求中对某一行的评论]
+image::../images/blink-04-pr-comment.png[合并请求中对某一行的评论]
 
 当维护者发表评论后，提交合并请求的人，以及所有正在关注（Watching）这个版本库的用户都会收到通知。我们待会儿将会告诉你如何修改这项设置。现在，如果 Tony 有开启电子邮件提醒，他将会收到这样的一封邮件：
 
 [[_email_notification]]
 .通过电子邮件发送的评论提醒
-image::images/blink-04-email.png[电子邮件提醒]
+image::../images/blink-04-email.png[电子邮件提醒]
 
 每个人都能在合并请求中发表评论。在 <<_pr_discussion>> 里我们可以看到项目拥有者对某行代码发表评论，并在讨论区留下了一个普通评论。你可以看到被评论的代码也会在互动中显示出来。
 
 [[_pr_discussion]]
 .合并请求讨论页面
-image::images/blink-05-general-comment.png[合并请求讨论页面]
+image::../images/blink-05-general-comment.png[合并请求讨论页面]
 
 现在贡献者可以看到如何做才能让他们的改动被接受。幸运的是，这也是一件轻松的事情。如果你使用的是电子邮件进行交流，你需要再次对代码进行修改并重新提交至邮件列表，在 GitHub 上，你只需要再次提交到你的分支中并推送即可。
 
@@ -158,7 +158,7 @@ image::images/blink-05-general-comment.png[合并请求讨论页面]
 
 [[_pr_final]]
 .最终的合并请求
-image::images/blink-06-final.png[最终的合并请求]
+image::../images/blink-06-final.png[最终的合并请求]
 
 如果你点开合并请求的“Files Changed”（更改的文件）选项卡，你将会看到“整理过的”差异表 —— 也就是这个分支被合并到主分支之后将会产生的所有改动，其实就是 `git diff master...<分支名>` 命令的执行结果。你可以浏览 <<_what_is_introduced>> 来了解更多关于差异表的知识。
 
@@ -192,7 +192,7 @@ image::images/blink-06-final.png[最终的合并请求]
 
 [[_pr_fail]]
 .不能进行干净合并
-image::images/pr-01-fail.png[合并请求合并失败]
+image::../images/pr-01-fail.png[合并请求合并失败]
 
 如果你看到了像 <<_pr_fail>> 中的画面，你就需要修复你的分支让这个提示变成绿色，这样维护者就不需要再做额外的工作。
 
@@ -247,7 +247,7 @@ To https://github.com/tonychacon/blink
 
 [[_pr_merge_fix]]
 .合并请求现在可以干净地合并了
-image::images/pr-02-merge-fix.png[修复了的合并请求]
+image::../images/pr-02-merge-fix.png[修复了的合并请求]
 
 Git 的伟大之处就是你可以一直重复以上操作。如果你有一个运行了十分久的项目，你可以轻松地合并目标分支且只需要处理最近的一次冲突，这使得管理流程更加容易。
 
@@ -263,13 +263,13 @@ Git 的伟大之处就是你可以一直重复以上操作。如果你有一个�
 
 [[_pr_references]]
 .在合并请求中的交叉引用
-image::images/mentions-01-syntax.png[合并请求中的引用]
+image::../images/mentions-01-syntax.png[合并请求中的引用]
 
 当我们提交了这个合并请求，我们将会看到以上内容被渲染成这样：<<_pr_references_render>>
 
 [[_pr_references_render]]
 .在合并请求中渲染后的交叉引用
-image::images/mentions-02-render.png[渲染后的合并请求中的引用]
+image::../images/mentions-02-render.png[渲染后的合并请求中的引用]
 
 你会注意到完整的 GitHub 地址被简化了，只留下了必要的信息。
 
@@ -277,7 +277,7 @@ image::images/mentions-02-render.png[渲染后的合并请求中的引用]
 
 [[_pr_closed]]
 .在合并请求中渲染后的交叉引用
-image::images/mentions-03-closed.png[合并请求关闭]
+image::../images/mentions-03-closed.png[合并请求关闭]
 
 除了议题编号外，你还可以通过使用提交的 SHA-1 来引用提交。你必须完整的写出 40 位长的 SHA，GitHub 会在评论中自动地产生指向这个提交的链接。同样的，你可以像引用议题一样对“Fork”出的项目中的提交或者其他项目中的提交进行引用。
 
@@ -289,7 +289,7 @@ image::images/mentions-03-closed.png[合并请求关闭]
 
 [[_example_markdown]]
 .一个 Markdown 的例子和渲染效果
-image::images/markdown-01-example.png[Markdown 例子]
+image::../images/markdown-01-example.png[Markdown 例子]
 
 ===== GitHub 风格的 Markdown
 
@@ -312,7 +312,7 @@ GitHub 风格的 Markdown 增加了一些基础的 Markdown 中做不到的东�
 
 [[_task_lists]]
 .Markdown 评论中渲染后的任务列表
-image::images/markdown-02-tasks.png[任务列表示例]
+image::../images/markdown-02-tasks.png[任务列表示例]
 
 在合并请求中，任务列表经常被用来在合并之前展示这个分支将要完成的事情。最酷的地方就是，你只需要点击复选框，就能更新评论 —— 你不需要直接修改 Markdown。
 
@@ -320,7 +320,7 @@ image::images/markdown-02-tasks.png[任务列表示例]
 
 [[_task_list_progress]]
 .在合并请求列表中的任务列表总结
-image::images/markdown-03-task-summary.png[任务列表示例]
+image::../images/markdown-03-task-summary.png[任务列表示例]
 
 当你在实现一个任务的早期就提交合并请求，并使用任务清单追踪你的进度，这个功能会十分的有用。
 
@@ -344,7 +344,7 @@ for(int i=0 ; i < 5 ; i++)
 
 [[_md_code]]
 .渲染后的摘录代码示例
-image::images/markdown-04-fenced-code.png[渲染后的摘录代码]
+image::../images/markdown-04-fenced-code.png[渲染后的摘录代码]
 
 ====== 引用
 
@@ -364,7 +364,7 @@ How big are these slings and in particular, these arrows?
 
 [[_md_quote]]
 .渲染后的引用示例
-image::images/markdown-05-quote.png[渲染后的引用]
+image::../images/markdown-05-quote.png[渲染后的引用]
 
 ====== 表情符号（Emoji）
 
@@ -372,7 +372,7 @@ image::images/markdown-05-quote.png[渲染后的引用]
 
 [[_md_emoji_auto]]
 .表情符号自动完成器
-image::images/markdown-06-emoji-complete.png[表情符号自动完成器]
+image::../images/markdown-06-emoji-complete.png[表情符号自动完成器]
 
 你也可以在评论的任何地方使用 `:<表情名称>:` 来添加表情符号。举个例子，你可以输入以下文字：
 
@@ -391,7 +391,7 @@ I :eyes: that :bug: and I :cold_sweat:.
 
 [[_md_emoji]]
 .使用了大量表情符号的评论
-image::images/markdown-07-emoji.png[Emoji]
+image::../images/markdown-07-emoji.png[Emoji]
 
 虽然这个功能并不是非常实用，但是它在这种不方便表达感情的媒体里，加入了趣味的元素。
 
@@ -409,6 +409,6 @@ http://www.emoji-cheat-sheet.com
 
 [[_md_drag]]
 .通过拖拽的方式自动插入图片
-image::images/markdown-08-drag-drop.png[拖拽插入图片]
+image::../images/markdown-08-drag-drop.png[拖拽插入图片]
 
 如果你回去查看 <<_pr_references>> ，你会发现文本区上有个“Parsed as Markdown”的提示。点击它你可以了解所有能在 GitHub 上使用的 Markdown 功能。
