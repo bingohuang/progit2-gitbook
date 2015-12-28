@@ -31,7 +31,6 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 . 附录A：其它环境中的 Git
 . 附录B：将 Git 嵌入你的应用
 . 附录C：Git 命令
-. To Be Continue...
 
 *_TODO:当前还有一些链接问题未修复_*
 
