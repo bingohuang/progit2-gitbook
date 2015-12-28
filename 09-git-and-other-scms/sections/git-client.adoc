@@ -7,10 +7,8 @@ Git 为开发者提供了如此优秀的体验，许多人已经找到了在他�
 
 {% include "./client-svn.adoc" %}
 
-include::client-svn.adoc[]
+{% include "./client-hg.adoc" %}
 
-include::client-hg.adoc[]
+{% include "./client-p4.adoc" %}
 
-include::client-p4.adoc[]
-
-include::client-tfs.adoc[]
+{% include "./client-tfs.adoc" %}

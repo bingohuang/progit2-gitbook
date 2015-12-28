@@ -6,12 +6,12 @@
 这一部分会介绍一些通用系统的导入器，然后演示如何开发你自己定制的导入器。
 你将会学习如何从几个大型专业应用的 SCM 系统中导入数据，不仅因为它们是大多数想要转换的用户正在使用的系统，也因为获取针对它们的高质量工具很容易。
 
-include::import-svn.adoc[]
+{% include "./import-svn.adoc" %}
 
-include::import-hg.adoc[]
+{% include "./import-hg.adoc" %}
 
-include::import-p4.adoc[]
+{% include "./import-p4.adoc" %}
 
-include::import-tfs.adoc[]
+{% include "./import-tfs.adoc" %}
 
-include::import-custom.adoc[]
+{% include "./import-custom.adoc" %}
