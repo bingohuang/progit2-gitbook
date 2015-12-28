@@ -2,7 +2,7 @@
 
 = Pro Git，第二版，简体中文
 
-* _注：作为Git官方推荐书籍，《Pro Git》值得Git初学者和爱好者认真阅读一遍。_
+* _作为Git官方推荐书籍，《Pro Git》值得Git初学者和爱好者认真阅读一遍。_
 
 * _本人很喜欢 https://www.gitbook.com/@bingohuang[GitBook] 的阅读书籍模式，喜爱开源共享。_
 _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第二版（简体中文版）迁移至此，方便大家统一阅读学习。_
@@ -11,9 +11,9 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 
 * https://www.gitbook.com/book/bingohuang/progit2/details[_《Pro Git》第二版书籍@GitBook_]
 
-* https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] 欢迎fork之后，做提交修改
+* https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] ：欢迎做 `fork - 修改 - pull request`
 
-* _感谢原著作者及翻译作者，官网在线地址见： http://git-scm.com/book/zh/v2_
+* _感谢原著作者及翻译者，官网在线地址见： http://git-scm.com/book/zh/v2_
 
 == 当前完成进度（持续更新）：
 
