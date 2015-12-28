@@ -19,6 +19,7 @@ _感谢原著作者及翻译作者，官网在线地址见： http://git-scm.com
 . 第五章：分布式 Git
 . 第六章：GitHub
 . 第七章：Git 工具
+. 第七章：自定义 Git
 . To Be Continue...
 
 *_TODO:当前还有一些链接问题未修复_*
