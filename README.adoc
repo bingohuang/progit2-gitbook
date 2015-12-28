@@ -10,6 +10,7 @@
 . 第三章：Git分支
 . 第四章：服务器上的 Git
 . 第五章：分布式 Git
+. 第六章：GitHub
 . To Be Continue
 
 == 前言
