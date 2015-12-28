@@ -5,6 +5,8 @@ Git 为开发者提供了如此优秀的体验，许多人已经找到了在他�
 有许多这种可用的适配器，它们被叫做 ``桥接''。
 下面我们将要介绍几个很可能会在实际中用到的桥接。
 
+{% include "./client-svn.adoc" %}
+
 include::client-svn.adoc[]
 
 include::client-hg.adoc[]

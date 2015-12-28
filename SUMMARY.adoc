@@ -73,4 +73,6 @@
 .. link:08-customizing-git/sections/policy.adoc[使用强制策略的一个例子]
 .. link:08-customizing-git/sections/summary.adoc[总结]
 . link:09-git-and-other-scms/1-git-and-other-scms.adoc[Git 与其他系统]
-.. link:09-git-and-other-scms/sections/.adoc[]
+.. link:09-git-and-other-scms/sections/git-client.adoc[作为客户端的 Git]
+.. link:09-git-and-other-scms/sections/git-migrate.adoc[迁移到 Git]
+.. link:09-git-and-other-scms/sections/summary.adoc[总结]
