@@ -1,13 +1,15 @@
 = Pro Git，第二版，简体中文
 
-_注：作为Git官方推荐书籍，《Pro Git》值得Git初学者好好阅读一遍。_
+* _注：作为Git官方推荐书籍，《Pro Git》值得Git初学者和爱好者认真阅读一遍。_
 
-_当前GitBook网站上只有《Pro Git》第一版，故我准备将《Pro Git》第二版简体中文版，迁移至此，方便大家统一阅读学习。_
+* _本人很喜欢 https://www.gitbook.com/@bingohuang[GitBook] 的阅读书籍模式，开源共享_
+_当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第二版（简体中文版）迁移至此，方便大家统一阅读学习。_
 
-_《Pro Git》第二版原书格式是AsciiDoc，和常用的Markdown格式略有不同，GitBook 2.0.0之后已支持_。
-_AsciiDoc帮助文档见： https://help.gitbook.com/format/asciidoc.html_
+* _《Pro Git》第二版原书格式是AsciiDoc，和常用的Markdown格式略有不同，还好GitBook 2.0.0之后已支持，方便我整理到 https://www.gitbook.com/@bingohuang[GitBook] 中， https://help.gitbook.com/format/asciidoc.html[AsciiDoc帮助文档点此] 。_
 
-_感谢原著作者及翻译作者，官网在线地址见： http://git-scm.com/book/zh/v2_
+* https://www.gitbook.com/book/bingohuang/progit2/details[_《Pro Git》GitBook地址_]
+
+* _感谢原著作者及翻译作者，官网在线地址见： http://git-scm.com/book/zh/v2_
 
 == 当前完成进度（持续更新）：
 
