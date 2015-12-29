@@ -98,5 +98,5 @@
 .. link:B-embedding-git/sections/command-line.adoc[命令行 Git 方式]
 .. link:B-embedding-git/sections/libgit2.adoc[Libgit2]
 .. link:B-embedding-git/sections/jgit.adoc[JGit]
-. link:C-git-commands/1-git-commands.adoc[附录C:将 Git 嵌入你的应用]
+. link:C-git-commands/1-git-commands.adoc[附录C：Git 命令]
 . link:contributors.adoc[原书贡献者]

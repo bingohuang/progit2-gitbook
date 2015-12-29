@@ -32,8 +32,7 @@ _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第�
 . 第十章：Git 内部原理
 . 附录A：其它环境中的 Git
 . 附录B：将 Git 嵌入你的应用
-. 附录C：Git 命令
-. 附录C：Git 命令
+. 附录C：将 Git 嵌入你的应用
 . 贡献者
 . 本书遗留问题：
 .. 书籍内部链接不能跳转，GitBook对Asciidoc支持的还不够完善
