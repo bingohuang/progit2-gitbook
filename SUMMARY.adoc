@@ -99,6 +99,4 @@
 .. link:B-embedding-git/sections/libgit2.adoc[Libgit2]
 .. link:B-embedding-git/sections/jgit.adoc[JGit]
 . link:C-git-commands/1-git-commands.adoc[附录C:将 Git 嵌入你的应用]
-. link:preface.adoc[序言]
-. link:introduction.adoc[引言]
-. link:contributors.adoc[贡献者]
+. link:contributors.adoc[原书贡献者]
