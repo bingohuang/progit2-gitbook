@@ -7,11 +7,11 @@
 * _本人很喜欢 https://www.gitbook.com/@bingohuang[GitBook] 的阅读书籍模式，喜爱开源共享。_
 _当前GitBook网站上只有《Pro Git》第一版，故我将《Pro Git》第二版（简体中文版）整理迁移至此，方便大家统一阅读学习。_
 
-* _《Pro Git》第二版原书格式是 `AsciiDoc`  ，和常用的 `Markdown` 格式略有不同，还好  `GitBook 2.0.0` 之后已支持，方便我整理到 https://www.gitbook.com/@bingohuang[GitBook] 中，其中 https://help.gitbook.com/format/asciidoc.html[AsciiDoc帮助文档点此] 。_
-
 * https://www.gitbook.com/book/bingohuang/progit2/details[_《Pro Git》第二版书籍@GitBook_]
 
-// * https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] ：欢迎做 `fork - 修改 - pull request`
+* https://github.com/bingoHuang/progit2-gitbook[_《Pro Git》第二版源码@Github_] ：欢迎做 `fork - 修改 - pull request`
+
+* _《Pro Git》第二版原书格式是 `AsciiDoc`  ，和常用的 `Markdown` 格式略有不同，还好  `GitBook 2.0.0` 之后已支持，方便我整理到 https://www.gitbook.com/@bingohuang[GitBook] 中，其中 https://help.gitbook.com/format/asciidoc.html[AsciiDoc帮助文档点此] 。_
 
 * _感谢原著作者及翻译者:_ http://git-scm.com/book/zh/v2[_书籍官网地址_]
 
