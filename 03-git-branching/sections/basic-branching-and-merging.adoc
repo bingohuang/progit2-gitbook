@@ -113,7 +113,7 @@ Fast-forward
 .`master` 被快进到 `hotfix`
 image::../images/basic-branching-5.png[`master` 被快进到 `hotfix`。]
 
-关于这个紧急问题的解决方案发布之后，你准备回到被打断之前时的工作中。
+关于这个紧急问题的解决方案发布之后，你准备回到被打断之前的工作中。
 然而，你应该先删除 `hotfix` 分支，因为你已经不再需要它了 —— `master` 分支已经指向了同一个位置。
 你可以使用带 `-d` 选项的 `git branch` 命令来删除分支：
 
